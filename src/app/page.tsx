@@ -7,7 +7,7 @@ const HomePage = () => {
   return (
     <div className="flex place-items-center flex-col text-center">
       <LevitatingLogoHeading/>
-      <h2 className="text-4xl pb-9">Sveitainė kuriama!</h2>
+      <h2 className="text-4xl pb-9">Puslapis kuriamas!</h2>
       <Math_SVG
         className="w-[155.83px] h-[155.83px] fill-color-secondary"
         aria-hidden="true"
