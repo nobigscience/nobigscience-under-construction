@@ -6,13 +6,33 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    screens: {
+      sm: '480px',
+      md: '768px',
+      lg: '1024px',
+      xl: '1200px',
+      '2xl': '1536px',
+    },
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      fontFamily: {
+        lora: ['"var(--font-lora)"'],
+        playfair: ['"var(--font-playfair)"'],
       },
+      colors: {
+        'color-background': '#F3F3F3',
+        'color-black': '#21232E',
+        'color-blue-400': '#98C1D9',
+        'color-blue-500': '#048BA08A',
+        'color-green-400': '#84B28A',
+        'color-primary': '#21232E',
+        'color-secondary': '#048BA0',
+        'color-white': '#F9F9F9',
+      },
+      boxShadow: {
+        'shadow': '0px 3px 6px #00000029'
+      },
+      backgroundImage: {},
     },
   },
   plugins: [],
-}
+};
