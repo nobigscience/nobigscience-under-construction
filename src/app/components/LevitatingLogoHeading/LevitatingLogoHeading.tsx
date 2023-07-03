@@ -5,7 +5,7 @@ import { Levitate } from '@/app/hooks/useLevitate';
 const LevitatingLogoHeading = () => {
   return (
     <Levitate>
-      <h1 className="pb-7">no big science</h1>
+      <h1 className="pb-7">nobigscience</h1>
     </Levitate>
   );
 };

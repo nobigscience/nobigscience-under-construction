@@ -15,7 +15,7 @@ const lora = Lora({
 });
 
 export const metadata = {
-  title: 'no big science',
+  title: 'nobigscience',
   description: 'Matematikos mokymosi platforma',
   keywords:
     'matematika, kursai, mokymosi platforma, matematikos taisykles, matematikos uzduotys, matematikos uzdaviniai, pitagoro teorema, funkcijos, geometrija, trigonometrija, dalyba, tikimybes, kombinatorika, pamokos, matematikos pamokos',

@@ -14,7 +14,7 @@ const HomePage = () => {
         alt="Matematikos reikmenys"
       />
       <p className="pt-10">
-        <span className="font-bold">no big science</span> - tai būsima
+        <span className="font-bold">nobigscience</span> - tai būsima
         matematikos MOKYMOSI platforma.
       </p>
       <p className="">
