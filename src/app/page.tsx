@@ -24,7 +24,7 @@ const HomePage = () => {
           href="mailto:joneatene@gmail.com"
           aria-label="'nobigscience' el. paštas"
         >
-          info@nobigscience.com
+          joneatene@gmail.com
         </a>
       </p>
     </div>
