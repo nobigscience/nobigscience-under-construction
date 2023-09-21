@@ -21,7 +21,7 @@ const HomePage = () => {
         Jei norite sužinoti daugiau, rašykite el. paštu:{' '}
         <a
           className="font-bold"
-          href="mailto:info@nobigscience.com"
+          href="mailto:joneatene@gmail.com"
           aria-label="'nobigscience' el. paštas"
         >
           info@nobigscience.com
