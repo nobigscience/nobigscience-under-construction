@@ -1,4 +1,4 @@
-import '@/app/styles/globals.css';
+import '@/styles/globals.css';
 import { Playfair_Display, Lora } from 'next/font/google';
 
 const playfair = Playfair_Display({

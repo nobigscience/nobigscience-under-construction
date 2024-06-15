@@ -1,6 +1,6 @@
 'use client';
 import React from 'react';
-import { Levitate } from '@/app/hooks/useLevitate';
+import { Levitate } from '@/hooks/useLevitate';
 
 const LevitatingLogoHeading = () => {
   return (
