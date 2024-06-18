@@ -15,21 +15,24 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        lora: ['"var(--font-lora)"'],
-        playfair: ['"var(--font-playfair)"'],
+        inter: ['var(--font-inter)'],
+        nbs: ['var(--font-nbs)'],
       },
       colors: {
-        'color-background': '#F3F3F3',
-        'color-black': '#21232E',
+        'color-background': '#FAF9F6',
+        'color-border-gray': '#E2E8F0',
+        'color-black': '#0F172A',
         'color-blue-400': '#98C1D9',
         'color-blue-500': '#048BA08A',
         'color-green-400': '#84B28A',
         'color-primary': '#21232E',
-        'color-secondary': '#048BA0',
+        'color-secondary': '#2B707B',
         'color-white': '#F9F9F9',
+        'color-yellow-400': '#FEF08A',
       },
       boxShadow: {
-        'shadow': '0px 3px 6px #00000029'
+        'primary': '0px 2px 4px 0px #00000025',
+        'secondary': '0px 4px 4px 0px #00000010'
       },
       backgroundImage: {},
     },

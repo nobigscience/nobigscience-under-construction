@@ -11,7 +11,7 @@
 
   body {
     color: theme('colors.color-black');
-    font-size: theme('fontSize.xl');
+    font-size: theme('fontSize.base');
     min-height: 100%;
     @apply subpixel-antialiased;
     @apply bg-color-background;
@@ -27,7 +27,7 @@
   h4,
   h5,
   h6 {
-    @apply font-playfair;
+    @apply font-nbs;
   }
 
   h1 {
