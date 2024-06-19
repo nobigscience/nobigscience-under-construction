@@ -7,7 +7,7 @@ const InfoCardSection = () => {
   return (
     <section className="w-full flex flex-col gap-8 md:gap-8 items-center md:flex-row lg:gap-16 md:justify-between md:items-start max-w-[350px] md:max-w-[943px] ">
       <InfoCard name="Jonė">
-        <div className="w-full flex flex-col gap-5 lg:gap-8 max-w-[290px]">
+        <div className="w-full flex flex-col gap-5 lg:gap-8 max-w-[290px] lg:max-w-none">
           <div className="w-full flex gap-4 text-sm lg:text-lg">
             <Image
               src={Jone_PNG}
@@ -29,7 +29,8 @@ const InfoCardSection = () => {
             </div>
           </div>
 
-          <div className="flex justify-center md:h-[172px]">
+          {/* TODO: flex-1 didn't work on info cards to make them the same height on big screens, so setting height manually */}
+          <div className="flex justify-center md:h-[176px] lg:h-[152px]">
             <p className="text-left flex flex-col gap-6">
               <span className="flex flex-col gap-1">
                 <span className="font-bold text-lg">
@@ -51,7 +52,7 @@ const InfoCardSection = () => {
       </InfoCard>
 
       <InfoCard name="Alina">
-        <div className="w-full flex flex-col gap-5 lg:gap-8 max-w-[290px]">
+        <div className="w-full flex flex-col gap-5 lg:gap-8 max-w-[290px] lg:max-w-none">
           <div className="w-full flex gap-4 justify-between text-sm lg:text-lg">
             <Image
               src={Alina_PNG}
