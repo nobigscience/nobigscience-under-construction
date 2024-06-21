@@ -15,7 +15,7 @@ const HomePage = () => {
           <div className="w-full flex-col gap-8 flex md:gap-14">
             <div className="flex gap-4 justify-between items-center">
               <h1 className="text-4xl max-w-[260px] md:text-5xl lg:text-6xl text-left">
-                Matematikos pamokos vasarą.
+                Matematikos pamokos vasarą
               </h1>
 
               {!isTablet && (
