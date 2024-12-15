@@ -1,4 +1,4 @@
-jiimport Image from 'next/image';
+import Image from 'next/image';
 import InfoCard from './InfoCard';
 import Jone_PNG from './assets/photos/jone.png';
 import Alina_PNG from './assets/photos/alina.png';
